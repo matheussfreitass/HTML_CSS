@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#chk{
+    display: none;
+}
+
+.switch {
+
+    position: relative;
+    background: #777;
+    width: 60px;
+    height: 30px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 0px;    
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.legend{
+    display: inline-block;
+    postion
+}
+.slider {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    transition: all .5s ease-in-out;
+}
+
+#chk:checked~.switch {
+    background-color: blueviolet;
+
+}
+
+#chk:checked~.switch .slider {
+    transform: translateX(30px);
+}
